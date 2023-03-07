@@ -1,2 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿string[] CreateArray()
+{
+	return new string[]{ "hello", "2", "world", ":-)" };
+}
