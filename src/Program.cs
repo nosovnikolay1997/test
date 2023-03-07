@@ -18,3 +18,9 @@ string[] FilterArray(string[] inp)
 	Array.Resize(ref output, count);
 	return output;
 }
+
+Console.WriteLine("Input array:");
+string [] source = CreateArray();
+PrintArray(source);
+Console.WriteLine("\nOutput array:");
+PrintArray(FilterArray(source));
